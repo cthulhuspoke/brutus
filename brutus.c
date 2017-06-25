@@ -4,7 +4,7 @@ number and special character combination, of a hash. */
 #define _XOPEN_SOURCE 
 #include <unistd.h>
 #include <stdio.h>
-#include <cs50.h>
+#include <stdlib.h>
 #include <string.h>
 
 char alphabet[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%%^&*()_+-=~`{}[]:\"\\;\'<>,.?/|\\";
@@ -13,7 +13,7 @@ char str[4];                                     // array of the plaintext to be
 int index=0;                                     // index size variable for keeping track of the number of characters in str
 char salt[2];                                    // the salt array which gets stripped off of the hash 
 
-int main (int argc, string argv[])
+int main (int argc, char* argv[])
 {
     if(argc != 2)
     {
@@ -21,7 +21,7 @@ int main (int argc, string argv[])
         return 1;
     }
     
-    string hash = argv[1];
+    char* hash = argv[1];
     strncpy(salt, hash, 2);                      //strips the first two chars from the hash (Thanks John!)
     printf("the hash is: %s\n", hash);
     printf("the salt is: %s\n", salt);
