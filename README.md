@@ -48,4 +48,4 @@ sys     0m0.004s
 # encryptor.c is used for creating hashes using the crypt() function in C
 
 # To compile under Linux:
-$ clang -fsanitize=integer -fsanitize=undefined -ggdb3 -O0 -std=c11 -Wall -Werror -Wextra -Wno-sign-compare -Wshadow    cryptor2.c  -lcrypt -lcs50 -lm -o cryptor2
+$ clang -fsanitize=integer -fsanitize=undefined -ggdb3 -O0 -std=c11 -Wall -Werror -Wextra -Wno-sign-compare -Wshadow  encryptor.c  -lcrypt -lcs50 -lm -o encryptor
