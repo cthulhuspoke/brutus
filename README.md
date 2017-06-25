@@ -58,7 +58,7 @@ user    0m37.812s
 sys     0m0.044s
 
 # encryptor.c:
-used for creating hashes using the crypt() function in C
+A small program to create hashes using the crypt() function in C.
 
 # Usage:
 ./encryptor your_plaintext your_salt
