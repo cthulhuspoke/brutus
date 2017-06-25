@@ -2,13 +2,20 @@
 A simple C program that will find the 1 to 4 character long plaintext made up of any letter,  number and special character combination, of a hash.
 
     // test hashes and compiler instructions 
-    // a = 50OqznXGVcOJU
-    // ab = 50kiZhZaSRp0E
-    // abc = 50PaJ4.RO0YUo
-    // abcd = 50W9/ghfUb5j.
-    // clang -ggdb3 -O0 -std=c11 -Wall -Werror -Wshadow again2.c -lcrypt -lcs50 -lm -o again2
+    //
+    // plaintext = hash 
+    //
+    // a         = 50OqznXGVcOJU
+    // ab        = 50kiZhZaSRp0E
+    // abc       = 50PaJ4.RO0YUo
+    // abcd      = 50W9/ghfUb5j.
     
-Also here are some times for those interested in them:
+    
+# To compile under Linux:
+
+   $> clang -ggdb3 -O0 -std=c11 -Wall -Werror -Wshadow brutus.c -lcrypt -lcs50 -lm -o brutus
+
+# Here are some times for those interested in them:
 
 a = 50OqznXGVcOJU
 real    0m0.003s
