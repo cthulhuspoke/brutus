@@ -45,6 +45,18 @@ real    0m2.869s
 user    0m2.856s
 sys     0m0.004s
 
+l%^3 = 50YPcepzRgXXs
+
+real    0m37.069s
+user    0m36.980s
+sys     0m0.036s
+
+lulz = 50/di.wD/O6Cc
+
+real    1m19.267s
+user    0m37.812s
+sys     0m0.044s
+
 # encryptor.c is used for creating hashes using the crypt() function in C
 
 # To compile under Linux:
