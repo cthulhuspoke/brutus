@@ -1,18 +1,18 @@
-/* A short program to create hashes using the crypt() function */
+/* a short hash creation program leveraging the crypt() function in C */
 
 #define _XOPEN_SOURCE       
 #include <unistd.h>
 #include <stdio.h>
-#include <cs50.h>
+
+char text[4],salt[2];
 
 int main (void)
 {
     printf("Enter some text: \n");
-    string text = get_string();
+    scanf("%s", text);
     printf("Enter a number: \n");
-    string salt = get_string();
-    printf("%s \n",text);
-    string crypted = crypt(text, salt);
+    scanf("%s", salt);
+    char* crypted = crypt(text, salt);
     printf("%s \n", crypted);
-    return 0;
+    return (0); 
 }
