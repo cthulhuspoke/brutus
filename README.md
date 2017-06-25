@@ -13,7 +13,7 @@ A simple C program that will find the 1 to 4 character long plaintext made up of
     
 # To compile under Linux:
 
-   $> clang -ggdb3 -O0 -std=c11 -Wall -Werror -Wshadow brutus.c -lcrypt -lcs50 -lm -o brutus
+   $ clang -ggdb3 -O0 -std=c11 -Wall -Werror -Wshadow brutus.c -lcrypt -lcs50 -lm -o brutus
 
 # Here are some times for those interested in them:
 
