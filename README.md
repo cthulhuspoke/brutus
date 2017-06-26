@@ -1,5 +1,5 @@
 # brutus.c:
-A simple C program that will find the 1 to 4 character long plaintext made up of any letter,  number and special character combination, of a hash.
+A simple C program that will find the 1 to 4 character long plaintext made up of any letter,  number and special character combination, of a hash, including spaces.
 
 # Test hashes:  
     
