@@ -7,7 +7,7 @@ number and special character combination, of a hash. */
 #include <stdlib.h>
 #include <string.h>
 
-char alphabet[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%%^&*()_+-=~`{}[]:\"\\;\'<>,.?/|\\";
+char alphabet[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%%^&*()_+-=~`{}[]:\"\\;\'<>,.?/|\\ ";
 int alphaSize= sizeof(alphabet) - 1;             // the size of the "alphabet" minus the trailing null zero
 char str[4];                                     // array of the plaintext to be compared 
 int index=0;                                     // index size variable for keeping track of the number of characters in str
