@@ -64,4 +64,4 @@ A small program to create hashes using the crypt() function in C.
 ./encryptor your_plaintext your_salt
 
 # To compile under Linux:
-$ clang -fsanitize=integer -fsanitize=undefined -ggdb3 -O0 -std=c11 -Wall -Werror -Wextra -Wno-sign-compare -Wshadow  encryptor.c  -lcrypt -lcs50 -lm -o encryptor
+$ clang -fsanitize=integer -fsanitize=undefined -ggdb3 -O0 -std=c11 -Wall -Werror -Wextra -Wno-sign-compare -Wshadow  encryptor.c  -lcrypt -lm -o encryptor
